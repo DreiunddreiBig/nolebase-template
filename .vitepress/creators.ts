@@ -11,7 +11,7 @@ export interface Creator {
   title?: string
   org?: string
   desc?: string
-  links?: SocialEntry[https://github.com/DreiunddreiBig]
+  links?: SocialEntry[]
   nameAliases?: string[]
   emailAliases?: string[]
 }
@@ -20,7 +20,7 @@ const getAvatarUrl = (name: string) => `https://github.com/${name}.png`
 
 export const creators: Creator[] = [
   {
-    name: '絢香猫',
+    name: '测试',
     avatar: '',
     username: 'nekomeowww',
     title: 'Nólëbase 原始创作者',
@@ -29,7 +29,7 @@ export const creators: Creator[] = [
       { type: 'github', icon: 'github', link: 'https://github.com/nekomeowww' },
       { type: 'twitter', icon: 'twitter', link: 'https://twitter.com/ayakaneko' },
     ],
-    nameAliases: ['nekomeowww', '绚香猫', '絢香猫', 'Neko Ayaka', 'Ayaka Neko'],
+    nameAliases: ['nekomeowww', '测试', '测试', 'Neko Ayaka', 'Ayaka Neko'],
     emailAliases: ['neko@ayaka.moe'],
   },
   {
