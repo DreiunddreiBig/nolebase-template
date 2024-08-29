@@ -8,7 +8,6 @@ import { siteName } from '../../../metadata'
   <div class="content">
     <div class="content-container">
       <main class="main">
-        </div>
       </main>
     </div>
   </div>
