@@ -33,7 +33,7 @@ import {
   NolebaseUnlazyImg,
 } from '@nolebase/vitepress-plugin-thumbnail-hash/client'
 
-import { creators } from '../creators'
+
 
 import AppContainer from './components/AppContainer.vue'
 import DocFooter from './components/DocFooter.vue'
@@ -102,7 +102,7 @@ const ExtendedTheme: Theme = {
     })
 
     app.provide(NolebaseGitChangelogInjectionKey, {
-
+      mapContributors: creators,
     })
 
     app.use(NolebaseInlineLinkPreviewPlugin)
