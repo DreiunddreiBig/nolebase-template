@@ -6,7 +6,7 @@ title: 2024——
 titleTemplate: 触达，也是一种价值。
 
 hero:
-  name: 2024——
+  name: 测试
   text: 触达，也是一种价值
   tagline:
   image:
