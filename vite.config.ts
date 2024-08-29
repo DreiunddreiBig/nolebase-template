@@ -28,6 +28,7 @@ export default defineConfig(async () => {
         getChangelogTitle: (): string => {
           return '文件历史'
         },
+
         excludes: [
           'toc.md',
           'index.md',
