@@ -11,7 +11,7 @@ export interface Creator {
   title?: string
   org?: string
   desc?: string
-  links?: SocialEntry[]
+  links?: SocialEntry[https://github.com/DreiunddreiBig]
   nameAliases?: string[]
   emailAliases?: string[]
 }
