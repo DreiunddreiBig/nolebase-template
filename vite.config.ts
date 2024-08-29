@@ -28,7 +28,7 @@ export default defineConfig(async () => {
         getChangelogTitle: (): string => {
           return '文件历史'
         },
-        gettorsTitle: (): string => {
+        getContributorsTitle: (): string => {
           return '贡献者'
         },
         excludes: [
