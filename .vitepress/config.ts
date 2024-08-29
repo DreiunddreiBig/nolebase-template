@@ -4,7 +4,7 @@ import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
-
+import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
 import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
@@ -229,7 +229,9 @@ export default defineConfig({
       md.use(UnlazyImages(), {
         imgElementTag: 'NolebaseUnlazyImg',
       })
-
+      md.use(InlineLinkPreviewElementTransform, {
+        tag: 'VPNolebaseInlineLinkPreview',
+      })
     },
   },
   async buildEnd(siteConfig) {
