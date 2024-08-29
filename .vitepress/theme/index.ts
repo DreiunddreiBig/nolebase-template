@@ -101,7 +101,6 @@ const ExtendedTheme: Theme = {
 
 
     app.use(NolebaseInlineLinkPreviewPlugin)
-    app.use(NolebaseGitChangelogPlugin)
     app.use(NolebasePagePropertiesPlugin<{
       tags: string[]
       progress: number
