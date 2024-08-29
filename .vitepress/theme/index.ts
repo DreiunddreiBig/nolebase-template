@@ -20,10 +20,7 @@ import {
   NolebaseHighlightTargetedHeading,
 } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 
-import {
-  InjectionKey as NolebaseGitChangelogInjectionKey,
-  NolebaseGitChangelogPlugin,
-} from '@nolebase/vitepress-plugin-git-changelog/client'
+
 
 import {
   NolebasePagePropertiesPlugin,
@@ -33,7 +30,7 @@ import {
   NolebaseUnlazyImg,
 } from '@nolebase/vitepress-plugin-thumbnail-hash/client'
 
-
+import { creators } from '../creators'
 
 import AppContainer from './components/AppContainer.vue'
 import DocFooter from './components/DocFooter.vue'
@@ -101,7 +98,7 @@ const ExtendedTheme: Theme = {
       },
     })
 
-   
+
 
     app.use(NolebaseInlineLinkPreviewPlugin)
     app.use(NolebaseGitChangelogPlugin)
