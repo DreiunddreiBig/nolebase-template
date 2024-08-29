@@ -20,7 +20,10 @@ import {
   NolebaseHighlightTargetedHeading,
 } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 
-
+import {
+  InjectionKey as NolebaseGitChangelogInjectionKey,
+  NolebaseGitChangelogPlugin,
+} from '@nolebase/vitepress-plugin-git-changelog/client'
 
 import {
   NolebasePagePropertiesPlugin,
@@ -98,7 +101,9 @@ const ExtendedTheme: Theme = {
       },
     })
 
-
+    app.provide(NolebaseGitChangelogInjectionKey, {
+      mapContributors: creators,
+    })
 
     app.use(NolebaseInlineLinkPreviewPlugin)
     app.use(NolebaseGitChangelogPlugin)
