@@ -102,7 +102,7 @@ const ExtendedTheme: Theme = {
     })
 
     app.provide(NolebaseGitChangelogInjectionKey, {
-      mapContributors: creators,
+
     })
 
     app.use(NolebaseInlineLinkPreviewPlugin)
