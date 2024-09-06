@@ -1,6 +1,6 @@
 /** 文本 */
-export const siteName = '2024——'
-export const siteShortName = '2024——'
+export const siteName = 'Nice北冰'
+export const siteShortName = 'Nice北冰'
 export const siteDescription = '触达，也是一种价值。'
 
 /** 文档所在目录 */
