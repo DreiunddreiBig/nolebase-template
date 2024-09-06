@@ -6,7 +6,7 @@ title: Nice北冰
 titleTemplate: 触达，也是一种价值。
 
 hero:
-  name: Nice北冰
+  name: 北冰
   text: 触达，也是一种价值
   tagline:
   image:
