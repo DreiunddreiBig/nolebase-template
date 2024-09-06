@@ -1,19 +1,20 @@
 ## 1. 下载安装IDM
 
-[官网地址]https://www.internetdownloadmanager.com/)
+[官网地址](https://www.internetdownloadmanager.com/)
 ![image.png](http://tuchuang.nicebb.cc/picture20240906134733.png)
 
 安装到最后一步不要点击完成，保留窗口
 ![image.png](http://tuchuang.nicebb.cc/picture20240906134936.png)
 
 ## 2. 运行破解程序
-双击运行，
+[下载地址](https://wwpm.lanzoub.com/ihxez29c531i)密码：`c5kn`
+下载完成，双击运行：
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135055.png)
 
-Crack，
+Crack：
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135156.png)
 
-Finish,
+Finish：
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135233.png)
 
 ## 3. 完成安装
@@ -21,18 +22,18 @@ Finish,
 
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135340.png)
 ## 4. 集成浏览器插件
-在弹出的窗口中点击确定
+在弹出的窗口中点击确定：
 
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135420.png)
 
-关闭
+关闭：
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135501.png)
 
-在浏览器中（IE、Chrome、Edge、FireFox等）启用扩展程序
+在浏览器中（IE、Chrome、Edge、FireFox等）启用扩展程序：
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135534.png)
 
 ## 5. 打开IDM，检查是否永久激活
-打开IDM-注册-注册选项，检查是否永久激活
+打开IDM-注册-注册选项，检查是否永久激活：
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135819.png)
 
 ![image.png](http://tuchuang.nicebb.cc/picture20240906135842.png)
